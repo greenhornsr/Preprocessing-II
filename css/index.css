@@ -350,6 +350,7 @@ img {
   height: 81px;
   background-image: url(../img/school-bus-but-scale.png);
   background-color: #ffffff;
+  color: transparent;
 }
 @media (max-width: 500px) {
   .home .content-pick .btn {
