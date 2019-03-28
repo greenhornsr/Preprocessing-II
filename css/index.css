@@ -345,6 +345,12 @@ img {
   color: white;
   border-radius: 10px;
 }
+.home .content-pick .btn:hover {
+  width: 200;
+  height: 81px;
+  background-image: url(../img/school-bus-but-scale.png);
+  background-color: #ffffff;
+}
 @media (max-width: 500px) {
   .home .content-pick .btn {
     height: 40px;

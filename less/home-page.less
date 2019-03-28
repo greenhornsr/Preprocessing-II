@@ -105,10 +105,11 @@
     }
     .btn{
       .teal-btn-creator(200px, white, 10px);
+      &:hover{
+        .button-hover-animate(rgb(255, 255, 255))
+      }
       @media @mobile{
         .teal-btn-creator(300px, white, 10px);
-        
-
       }
     }
   }
