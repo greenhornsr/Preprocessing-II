@@ -60,12 +60,18 @@
     .img-content {
       padding-right: 1%;
       padding-left: 0;
+      @media @mobile{
+        order: 3;
+      }
     }
   }
 
   .content-destination {
     width: 75%;
     margin: 0 auto 30px;
+    @media @mobile{
+      width: 100%;
+    }
 
     img {
       border-radius: 10px;
