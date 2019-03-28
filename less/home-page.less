@@ -1,17 +1,22 @@
 .home {
   @media @mobile{
-    margin: 45px;
+    // max-width: 500px;
+    margin: 30px 0;
   }
   .homepg-head{
     // border: 1px solid red;
     .head-banner-img{
       margin-bottom: 20px;
+      @media @mobile{
+        margin: 20px;
+      }
     }
   }
   @media @mobile{
     .head-fbgreet{
       border-bottom: 1px dashed black;
       padding-bottom: 15px;
+      margin: 0 30px;
     }
   }
  
@@ -23,6 +28,7 @@
 
     @media @mobile{
       flex-direction: column;
+      margin: 20px;
     }
 
     .text-content {
@@ -70,7 +76,7 @@
     width: 75%;
     margin: 0 auto 30px;
     @media @mobile{
-      width: 100%;
+      width: 90%;
     }
 
     img {
@@ -84,12 +90,26 @@
     display: flex;
     justify-content: space-between;
 
+    @media @mobile{
+      display: flex;
+      flex-direction: column;
+    }
+
     .destination {
       width: 30%;
       margin-bottom: 30px;
+      @media @mobile{
+        width: 100%;
+        padding: 20px;
+      }
     }
     .btn{
       .teal-btn-creator(200px, white, 10px);
+      @media @mobile{
+        .teal-btn-creator(300px, white, 10px);
+        
+
+      }
     }
   }
 }// home
